@@ -7,7 +7,9 @@
 
 # Site Settings
 locale                   : "en-UK"
-title                    : "Dr. Martin A. Belzunce"
+title                    : > 
+                            Laboratorio de Procesamiento 
+                            de Imágenes Médicas
 title_separator          : "-"
 name                     : &name "Dr. Martin A. Belzunce"
 description              : &description "Senior Research Associate at the Royal National Orthopaedic Hospital (UK) and Guest Researcher at the UNSAM (Argentina)"
@@ -87,7 +89,7 @@ author:
   employer         :
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=martin%20belzunce"
   googlescholar    : "https://scholar.google.com/citations?user=p1EfqNQAAAAJ&hl=en"
-  email            :
+  email            : "martin.a.belzunce@gmail.com"
   researchgate     :  "https://www.researchgate.net/profile/Martin-Belzunce"
   uri              :
   bitbucket        :
