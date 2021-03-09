@@ -25,7 +25,8 @@ para enfermedades neurodegenerativas. [**Si estás interesado en desarrollar tu 
 **August 2020** My technical note proposing a new ultra high-resolution realistic brain phantom is in the cover of 
 the August issue of Medical Physics. [**Check the paper (open access)**](https://doi.org/10.1002/mp.14218).
 
-![Under Construction](../images/CoverMedicalPhysics.png)
+<img src="../images/CoverMedicalPhysics.png" width="400" />
+<!---![Under Construction](../images/CoverMedicalPhysics.png)-->
 
 
 About Me
