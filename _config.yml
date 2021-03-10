@@ -8,8 +8,7 @@
 # Site Settings
 locale                   : "en-UK"
 title                    : > 
-                            Laboratorio de Procesamiento \n
-                            de Imágenes Médicas
+                            Dr. Martin A. Belzunce
 title_separator          : "-"
 name                     : &name "Dr. Martin A. Belzunce"
 description              : &description "Senior Research Associate at the Royal National Orthopaedic Hospital (UK) and Guest Researcher at the UNSAM (Argentina)"
@@ -238,6 +237,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _talks
   - scope:
       path: ""
