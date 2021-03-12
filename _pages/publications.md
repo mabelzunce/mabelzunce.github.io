@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+![Under Construction](../images/free-under-construction-image.jpg)
+
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}

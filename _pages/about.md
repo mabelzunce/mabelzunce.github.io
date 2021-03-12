@@ -19,7 +19,8 @@ San Martín.
 Nacional de San Martín (UNSAM) con el objetivo de crear el Laboratorio de Procesamiento y Reconstrucción de Imágenes Médicas.
 Me enfocaré en algoritmos avanzados de reconstrucción y procesamiento de neuroimágenes PET aplicados al estudio de marcadores 
 para enfermedades neurodegenerativas, trabajando en conjunto con el Centro de Estudios Multidisciplinarios en Sistemas Complejos y 
-Ciencias del Cerebro (CEMSC<sup>3</sup>) dirigido por Prof. Dante Chialvo. [**Si estás buscando temas o proyectos de tesis de Maestría o Doctorado, no dudes en contactarte.**](/jobs/jobs.md)
+Ciencias del Cerebro (CEMSC<sup>3</sup>) dirigido por Prof. Dante Chialvo. [**Si estás buscando temas o proyectos de tesis de Maestría o Doctorado
+relacionados, no dudes en contactarte.**](mailto:martin.a.belzunce@gmail.com)
 
 ![UNSAME](../images/logo-unsam-2020.png)
 
@@ -32,8 +33,25 @@ the August issue of Medical Physics. [**Check the paper (open access)**](https:/
 
 About Me
 ======
+I'm an electronic engineer and a scientist with a PhD in image processing interested in the basic science and translational application of
+ novel medical image processing methods. Over the years, I have designed and
+implemented a wide range of image processing and image reconstruction algorithms
+in the field of PET and SPECT image reconstruction. Also, I have been involved
+in the design of radiation detectors for nuclear medicine and other medical
+devices. In the last years, I have focused on the translational aspects of medical image processing, 
+first in the application of novel PET image reconstruction to study brain disorders and then in 
+the application of image processing and deep learning methods for CT and MRI imaging in 
+musculoskeletal applications.
 
-I am 
+[*Español*] Soy un ingniero electrónico y científico con un doctorado en procesamiento de imágenes
+interesado en los aspectos básicos y translationales del procesamiento de imágenes médicas. A lo largo de 
+mi carrera, he diseñado e implementado múltiples algoritmos de procesamiento y reconstrucción de imágenes
+ para PET y SPECT. A su vez, he estado involucrado en el diseño y simulación de detectores de radiación para medicina 
+nuclear, scanners y otros dispositivos. En los últimos años, me he concentrado en los aspectos translacionales 
+del procesamiento de imágenes médicas, primero en la aplicación de nuevos métodos de reconstrucción de imágenes 
+PET para el estudio de trastornos neurológicos y luego en la aplicación del procesamiento de imágenes de CT y MRI 
+en aplicaciones musculoesqueléticas.
+
 ![Under Construction](../images/free-under-construction-image.jpg)
 
 Previously on 'Latest'
