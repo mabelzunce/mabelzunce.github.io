@@ -7,9 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+
+You can also find my articles on my [Scholar Google](https://scholar.google.com/citations?user=p1EfqNQAAAAJ&hl=en) and [ResearchGate](https://www.researchgate.net/profile/Martin-Belzunce) profiles.
+
 
 ## Peer-Reviewed Journal Publications
 
@@ -19,6 +19,6 @@ author_profile: true
 
 ## Conference Proceedings
 
-{% for post in site.publications reversed %}
+{% for post in site.proceedings reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}

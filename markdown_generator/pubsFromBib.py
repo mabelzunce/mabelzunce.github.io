@@ -30,8 +30,9 @@ publist = {
         "file" : "..//files//MyConferenceRecords.bib",
         "venuekey": "booktitle",
         "venue-pretext": "",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+        "collection" : {"name":"proceedings",
+                        "permalink":"/proceeding/"},
+        "output-folder": "../_proceedings/"
         
     },
     "journal":{
@@ -39,7 +40,8 @@ publist = {
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+                        "permalink":"/publication/"},
+        "output-folder": "../_publications/"
     } 
 }
 
@@ -85,7 +87,8 @@ for pubsource in publist:
 
                 
             pub_date = pub_year+"-"+pub_month+"-"+pub_day
-            
+
+
             #strip out {} as needed (some bibtex entries that maintain formatting)
             clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-")    
 
@@ -100,7 +103,10 @@ for pubsource in publist:
 
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+                if author.last_names[0] == "Belzunce":
+                    citation = citation+" <b>"+author.first_names[0]+" "+author.last_names[0]+"</b>, "
+                else:
+                    citation = citation + " " + author.first_names[0] + " " + author.last_names[0] + ", "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
@@ -108,7 +114,7 @@ for pubsource in publist:
             #add venue logic depending on citation type
             venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
 
-            citation = citation + " " + html_escape(venue)
+            citation = citation + " <i>" + html_escape(venue) + "</i>"
             citation = citation + ", " + pub_year + "."
 
             
@@ -135,6 +141,10 @@ for pubsource in publist:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
 
+            # Now include the doi also:
+            if "doi" in b.keys():
+                md += "\ndoi: '" + b["doi"] + "'"
+
             md += "\ncitation: '" + html_escape(citation) + "'"
 
             md += "\n---"
@@ -151,7 +161,7 @@ for pubsource in publist:
 
             md_filename = os.path.basename(md_filename)
 
-            with open("../_publications/" + md_filename, 'w') as f:
+            with open(publist[pubsource]["output-folder"] + md_filename, 'w') as f:
                 f.write(md)
             print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
         # field may not exist for a reference

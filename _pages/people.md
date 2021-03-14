@@ -5,5 +5,5 @@ permalink: /people/
 author_profile: true
 ---
 
-Currently Iím recruiting lab members, so please send me your CV and a brief 
-description of your research interests if youíd like to be considered!
+Actualmente estoy preparando aplicaciones para obtener becarios de Doctorado Conicet. Si est√°s interesado en aplicar, ponete en contacto.
+
