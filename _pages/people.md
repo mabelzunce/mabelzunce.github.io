@@ -5,4 +5,5 @@ permalink: /people/
 author_profile: true
 ---
 
-![Under Construction](../images/free-under-construction-image.jpg)
+Currently I’m recruiting lab members, so please send me your CV and a brief 
+description of your research interests if you’d like to be considered!
