@@ -22,7 +22,8 @@ para enfermedades neurodegenerativas, trabajando en conjunto con el Centro de Es
 Ciencias del Cerebro (CEMSC<sup>3</sup>) dirigido por Prof. Dante Chialvo. [**Si estás buscando temas o proyectos de tesis de Maestría o Doctorado
 relacionados, no dudes en contactarte.**](mailto:martin.a.belzunce@gmail.com)
 
-<img src="../images/logo-unsam-2020.png" alt="UNSAM" width="300"/> <img src="../images/../images/CEMSC3_logo.jpg" alt="CEMSC3" width="200"/>
+<img src="../images/logo-unsam-2020.png" alt="UNSAM" width="250"/>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <img src="../images/CEMSC3_logo.jpg" alt="CEMSC3" width="200"/>
+
 
 **August 2020** My technical note proposing a new ultra high-resolution realistic brain phantom is in the cover of 
 the August issue of Medical Physics. [**Check the paper (open access)**](https://doi.org/10.1002/mp.14218).
