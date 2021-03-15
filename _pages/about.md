@@ -11,7 +11,7 @@ redirect_from:
 
 Latest
 ======
-**March 2021** Estamos buscando postulantes para la convocatoria de Becas de Doctorado CONICET 2021. Podés encontrar [**más información sobre los temas acá.**](/people.md)
+**March 2021** Estamos buscando postulantes para la convocatoria de Becas de Doctorado CONICET 2021. Podés encontrar [**más información sobre los temas acá.**](./people.md)
 
 **March 2021** [**_En_**] I will be starting a new Medical Image Processing and Reconstruction group at the Universidad Nacional de 
 San Martín.
