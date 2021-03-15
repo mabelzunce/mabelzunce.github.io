@@ -11,16 +11,16 @@ redirect_from:
 
 Latest
 ======
+**March 2021** Estamos buscando postulantes para la convocatoria de Becas de Doctorado CONICET 2021. Podés encontrar [**más información sobre los temas acá.**](/people.md)
 
-**March 2021** I will be starting a new Medical Image Processing and Reconstruction group at the Universidad Nacional de 
+**March 2021** [**_En_**] I will be starting a new Medical Image Processing and Reconstruction group at the Universidad Nacional de 
 San Martín.
 
-[*Español*] En el transcurso del 2021 me incorporaré a la Escuela de Ciencia y Tecnología de la Universidad
+[**_Es_**] En el transcurso del 2021 me incorporaré a la Escuela de Ciencia y Tecnología de la Universidad
 Nacional de San Martín (UNSAM) con el objetivo de crear el Laboratorio de Procesamiento y Reconstrucción de Imágenes Médicas.
 Me enfocaré en algoritmos avanzados de reconstrucción y procesamiento de neuroimágenes PET aplicados al estudio de marcadores 
 para enfermedades neurodegenerativas, trabajando en conjunto con el Centro de Estudios Multidisciplinarios en Sistemas Complejos y 
-Ciencias del Cerebro (CEMSC<sup>3</sup>) dirigido por Prof. Dante Chialvo. [**Si estás buscando temas o proyectos de tesis de Maestría o Doctorado
-relacionados, no dudes en contactarte.**](mailto:martin.a.belzunce@gmail.com)
+Ciencias del Cerebro (CEMSC<sup>3</sup>) dirigido por Prof. Dante Chialvo.
 
 <img src="../images/logo-unsam-2020.png" alt="UNSAM" width="250"/>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <img src="../images/CEMSC3_logo.jpg" alt="CEMSC3" width="200"/>
 
@@ -34,7 +34,7 @@ the August issue of Medical Physics. [**Check the paper (open access)**](https:/
 
 About Me
 ======
-I'm an electronic engineer and a scientist with a PhD in image processing interested in the basic science and translational application of
+[**_En_**] I'm an electronic engineer and a scientist with a PhD in image processing interested in the basic science and translational application of
  novel medical image processing methods. Over the years, I have designed and
 implemented a wide range of image processing and image reconstruction algorithms
 in the field of PET and SPECT image reconstruction. Also, I have been involved
@@ -44,7 +44,7 @@ first in the application of novel PET image reconstruction to study brain disord
 the application of image processing and deep learning methods for CT and MRI imaging in 
 musculoskeletal applications.
 
-[*Español*] Soy un ingniero electrónico y científico con un doctorado en procesamiento de imágenes
+[**_Es_**] Soy un ingniero electrónico y científico con un doctorado en procesamiento de imágenes
 interesado en los aspectos básicos y translationales del procesamiento de imágenes médicas. A lo largo de 
 mi carrera, he diseñado e implementado múltiples algoritmos de procesamiento y reconstrucción de imágenes
  para PET y SPECT. A su vez, he estado involucrado en el diseño y simulación de detectores de radiación para medicina 
@@ -53,7 +53,6 @@ del procesamiento de imágenes médicas, primero en la aplicación de nuevos mé
 PET para el estudio de trastornos neurológicos y luego en la aplicación del procesamiento de imágenes de CT y MRI 
 en aplicaciones musculoesqueléticas.
 
-![Under Construction](../images/free-under-construction-image.jpg)
 
 Previously on 'Latest'
 ======

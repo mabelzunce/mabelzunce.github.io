@@ -14,7 +14,8 @@ and MR-Assisted MAP-EM reconstruction. The animation shows: 1) the same slice co
 during the reconstruction process, 2) all the slices for the final reconstructed image, and 3)
 rotating Maximum Intensity Projections (MIPs).
 
-![MR-Guided Image Reconstruction](../images/FullSequence2.gif)
+<img src="../images/FullSequence2.gif" width="500" />
+
 ![Under Construction](../images/free-under-construction-image.jpg)
 
 ## Hip Muscles Segmentation

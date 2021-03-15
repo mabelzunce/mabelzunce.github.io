@@ -103,10 +103,17 @@ for pubsource in publist:
 
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
+                # Composed last names are grouped with {} by Mendeley, remove the {}:
+                author.last_names[0] = author.last_names[0].replace('{', '')
+                author.last_names[0] = author.last_names[0].replace('}', '')
+                # Use all the first names:
+                first_name = ""
+                for name in author.bibtex_first_names:
+                    first_name = first_name + name + " "
                 if author.last_names[0] == "Belzunce":
-                    citation = citation+" <b>"+author.first_names[0]+" "+author.last_names[0]+"</b>, "
+                    citation = citation+" <b>"+first_name+ author.last_names[0]+"</b>, "
                 else:
-                    citation = citation + " " + author.first_names[0] + " " + author.last_names[0] + ", "
+                    citation = citation + " " + first_name + author.last_names[0] + ", "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
